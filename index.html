@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Space Explorers: What NASA Left Behind</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="stars"></canvas>
+ 
+<header id="hud">
+  <h1>🚀 Space Explorers</h1>
+  <div id="score" title="Discoveries">⭐ <span id="count">0</span> / <span id="total">0</span></div>
+</header>
+ 
+<main id="system" aria-label="The solar system"></main>
+<p id="guide">👩‍🚀 Hi, explorer! Tap a planet to fly there and find what NASA left behind.</p>
+ 
+<section id="scene" hidden>
+  <button id="back">⬅ Back to space</button>
+  <div class="wrap">
+    <div id="world"></div>
+    <article id="card"></article>
+  </div>
+</section>
+ 
+<div id="rocket">🚀</div>
+<script src="script.js"></script>
+</body>
+</html>
